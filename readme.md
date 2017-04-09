@@ -34,11 +34,13 @@ py_class.pyを作成。call_class.cを作成。
 そこを直したら、うまくいった。
 
 単純にクラスをcall
+
 $ ./call_class py_class Multiply multiply
 The result of 6 x 5 : 30
 Return of call : 30
 
 引数付きのメソッドをコール
+
 $ ./call_class py_class Multiply multiply2 8 9
 The result of 8 x 9 : 72
 Return of call : 72
