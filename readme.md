@@ -6,7 +6,9 @@ $ gcc -g call_function.c -o call_function -I`python-config --prefix`/Headers -L`
 　かなり長い（これでも`python-config --prefix`を使って、パス名の指定を楽している）
 
 実行方法
+```
 $ ./a.out py_function multipy
+```
 
 coreがでる。うまくいかない。
 
